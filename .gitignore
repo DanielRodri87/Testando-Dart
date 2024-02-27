@@ -42,3 +42,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Ignorar arquivos e diretórios relacionados ao Windows
+windows/
+*.bat
+*.exe
+
+# Ignorar arquivos e diretórios relacionados ao Linux
+linux/
