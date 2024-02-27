@@ -87,7 +87,6 @@ class MyHomePage extends StatelessWidget {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
-                    // Navegar para a tela HomeScreen quando o botão for pressionado
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => const HomeScreen()),
